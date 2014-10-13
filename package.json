@@ -1,8 +1,8 @@
 {
-  "name": "MyProject",
+  "name": "Sails Test",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "A Sails application for test",
   "keywords": [],
   "dependencies": {
     "sails": "~0.10.5",
@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/MyProject.git"
+    "url": "https://github.com/andalm/Sails-Test"
   },
-  "author": "anonymous node/sails user",
-  "license": ""
+  "author": "andalm",
+  "license": "MIT"
 }

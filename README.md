@@ -1,3 +1,5 @@
-# MyProject
+# Sails Test
 
-a [Sails](http://sailsjs.org) application
+A [Sails](http://sailsjs.org) application for test.
+
+Following the steps of [sailsCasts](http://irlnathan.github.io/sailscasts/blog/archives/) tutorial.
