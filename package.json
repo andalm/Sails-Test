@@ -1,7 +1,7 @@
 {
-  "name": "Sails Test",
+  "name": "whispering-fortress-4904",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Sails application for test",
   "keywords": [],
   "dependencies": {
@@ -25,7 +25,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "test": "node_modules/.bin/mocha -w"
   },
   "main": "app.js",
   "repository": {
@@ -33,5 +34,9 @@
     "url": "https://github.com/andalm/Sails-Test"
   },
   "author": "andalm",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.1.0"
+  }
 }

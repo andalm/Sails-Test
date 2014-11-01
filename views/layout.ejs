@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>New Sails App</title>
+    <title><%- title %></title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,15 +29,26 @@
     -->
 
     <!--STYLES-->
-    <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/js/dependencies/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/js/dependencies/bootstrap/css/bootstrap-theme.css">
     <!--STYLES END-->
   </head>
 
-  <body>
-    <%- body %>
+  <body role="document">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">          
+                <a class="navbar-brand" href="#">My Application</a>
+            </div>        
+        </div>
+    </div>
 
-
-
+    <div class="container theme-showcase" role="main">
+        <div class="jumbotron">
+            <%- body %>
+        </div>        
+    </div>
+      
     <!--
         Client-side Templates
         ========================
@@ -89,6 +100,8 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/js/dependencies/bootstrap/js/bootstrap.min.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
